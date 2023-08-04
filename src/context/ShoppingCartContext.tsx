@@ -17,6 +17,7 @@ type ShoppingCartContext = {
 }
 
 type CartItem = {
+    price: number
     id: number
     quantity: number
 }
