@@ -2,25 +2,37 @@
     {
       "id": 1,
       "name": "Creamsicle",
-      "price": 10.99,
-      "imgUrl": "/imgs/creamsicle.jpg"
+      "price": 10,
+      "imgUrl": "https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
     },
     {
       "id": 2,
       "name": "Multipack",
-      "price": 1199,
-      "imgUrl": "/imgs/kitten_multipack.jpg"
+      "price": 1500,
+      "imgUrl": "https://images.unsplash.com/photo-1566847438217-76e82d383f84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
     },
     {
       "id": 3,
       "name": "Stylish Model",
-      "price": 14000,
-      "imgUrl": "/imgs/luxury_kitten.jpg"
+      "price": 140,
+      "imgUrl": "https://images.unsplash.com/photo-1603314585442-ee3b3c16fbcf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
     },
     {
       "id": 4,
       "name": "Extra Smol",
-      "price": 1.05,
-      "imgUrl": "/imgs/TP_for_scale.jpg"
+      "price": 15,
+      "imgUrl": "https://images.unsplash.com/photo-1589720247367-97b62ed5cfd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Himastandin'",
+      "price": 95,
+      "imgUrl": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Climber",
+      "price": 350,
+      "imgUrl": "https://images.unsplash.com/photo-1617813480712-192af5b98288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
     }
   ]
