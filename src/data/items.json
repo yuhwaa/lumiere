@@ -31,8 +31,14 @@
     },
     {
       "id": 6,
-      "name": "Climber",
+      "name": "Climb Hard",
       "price": 350,
       "imgUrl": "https://images.unsplash.com/photo-1617813480712-192af5b98288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
+    },
+    {
+      "id":7,
+      "name": "Just Hanging",
+      "price": 150,
+      "imgUrl": "https://images.unsplash.com/photo-1619463906013-88d6179db2e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=720&q=80"
     }
   ]
