@@ -1,17 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
-interface Slide {
-  image: string;
-  caption: string;
-  description: string;
-}
+type CarouselComponentProps = {
+  data: {
+    image: string;
+    caption: string;
+    description: string;
+  }[];
+};
+/* The [] denotes an array. In the context of TypeScript type definitions, it's specifying that the data property should be an array of objects with the structure defined within the curly braces. */
 
-interface CarouselComponentProps {
-  data: Slide[];
-}
-
-const CarouselComponent: React.FC<CarouselComponentProps> = ({ data }) => {
+export function CarouselComponent({data} : CarouselComponentProps) {
   const [index, setIndex] = useState<number>(0);
 
   const handleSelect = (selectedIndex: number, e: object | null) => {
@@ -37,4 +36,3 @@ const CarouselComponent: React.FC<CarouselComponentProps> = ({ data }) => {
   );
 };
 
-export default CarouselComponent;
