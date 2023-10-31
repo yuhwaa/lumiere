@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 
 interface Slide {
@@ -7,10 +7,13 @@ interface Slide {
   description: string;
 }
 
-const data = slidedata
+interface CarouselComponentProps {
+  data: Slide[];
+}
 
-function HomeCarousel() {
+const CarouselComponent: React.FC<CarouselComponentProps> = ({ data }) => {
   const [index, setIndex] = useState<number>(0);
+
   const handleSelect = (selectedIndex: number, e: object | null) => {
     setIndex(selectedIndex);
   };
@@ -32,6 +35,6 @@ function HomeCarousel() {
       ))}
     </Carousel>
   );
-}
+};
 
-export default HomeCarousel;
+export default CarouselComponent;
