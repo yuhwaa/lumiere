@@ -1,3 +1,10 @@
+import Carousel from "../components/Carousel";
+import homeSlides from "../data/homeslides.json";
+
 export function Home(){
-    return <h1>Home</h1>
+    return (
+    <>
+    <Carousel slidedata={homeSlides}/>
+    </>
+    )
 }
