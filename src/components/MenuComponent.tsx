@@ -11,7 +11,7 @@ export function MenuComponent({menuData} : MenuComponentProps) {
   return (
      <>
      
-      <table className="table table-hover w-75 mx-auto pl-16">
+      <table className="table table-hover w-75 mx-auto mb-5 pl-16">
         <thead>
           {/* <tr>
             <th scope="col">Item</th>

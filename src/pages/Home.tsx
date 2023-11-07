@@ -1,6 +1,7 @@
 import data from "../data/homeslides.json";
 import { CarouselComponent } from "../components/CarouselComponent";
 import { TabsComponent } from "../components/TabsComponent";
+import { Footer } from "../components/Footer";
 
 export function Home(){
     return (
@@ -11,8 +12,10 @@ export function Home(){
     {/* Menu */}
       <TabsComponent />
     {/* Reservation */}
-    {/* Membership */}
+
+    {/* Membership Promo*/}
     {/* Footer: location/phone/email + Social + hours + newsletter + all rights reserved*/}
+      <Footer />
     </>
     )
 }
